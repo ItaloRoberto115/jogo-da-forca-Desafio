@@ -1,4 +1,4 @@
-var palavras = ["POXA","VIDA","CARRINHO"];
+var palavras = ["POXA","VIDA","CARRINHO","BICICLETA","MULHER"];
 var tela = document.getElementById("tela").getContext("2d");
 var letras = [];
 

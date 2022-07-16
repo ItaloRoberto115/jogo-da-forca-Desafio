@@ -16,7 +16,7 @@ botaoAdicionar.addEventListener("click",function(){
     var textString = JSON.stringify(texto);
     
     
-    if( !regex.test(texto) || number.test(texto)||texto.length < 3 || texto.length >= 8){
+    if( !regex.test(texto) || number.test(texto)||texto.length < 3 || texto.length >= 9){
         document.getElementsByName('text-area')[0].placeholder='insira um texto valido';
         textArea.classList.add("color");
         textArea.classList.remove("color2");
