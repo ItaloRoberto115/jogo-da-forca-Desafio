@@ -231,7 +231,7 @@ span.fechar-modal{
     width: 0px;
     height: 24px;
     overflow: hidden;
-    background-image: url("../imagens/arrow.svg");
+    background-image: url("../Imagens/arrow.svg");
     transition: width 200ms, margin-left 200ms;
     
 }
@@ -296,7 +296,7 @@ span.fechar-modal{
     width: 0px;
     height: 24px;
     overflow: hidden;
-    background-image: url("/imagens/arrow-right-line.svg");
+    background-image: url("../Imagens/arrow.svg");
     transition: width 200ms, margin-left 200ms;
 }
 
