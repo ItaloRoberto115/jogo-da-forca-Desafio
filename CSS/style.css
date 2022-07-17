@@ -244,7 +244,7 @@ span.fechar-modal{
 
 /*style menu*/
 .botoes{
-    
+    height: 500px;
     width: 100%;
 } 
 .iniciar-link{
@@ -366,4 +366,58 @@ a{
     background-color: #1d5191;
     font-size: 30px;
     transition: all 0.2s
+}
+
+
+@media screen and (max-width: 1200px){ 
+    body{
+        width: 100%;
+    }
+  
+    #tela{
+        width: 100%;
+    }
+    .game-botoes{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .voltar , .novo-jogo{
+        margin: 0 auto;
+        top: 10px;
+        left: 0px;
+    }
+    .area-texto,.botoesAdd{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 540px){
+  
+    .voltar , .novo-jogo {
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        width: 352px;
+        
+    }
+    .adicionar-area , .iniciar-jogo{
+        width: 352px;
+    }
+    #text-area , .text-inform{
+        margin: 0 20px;
+    }
+    #text-area{
+        width: 355px;
+        padding: 0;
+        margin: 0 0 0 10px;
+    }
+    
+    
+
 }
